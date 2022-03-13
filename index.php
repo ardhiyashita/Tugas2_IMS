@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,14 @@
     <title>Home</title>
 </head>
 
-
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Aku Siapa?</a> <!--Bisa diubah-->
+            <a class="navbar-brand" href="#">Aku Siapa?</a>
+            <!--Bisa diubah-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            
+
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -27,12 +27,14 @@
     </nav>
 
     <div class="container">
-        
+
         <div class="row mt-3 justify-content-center">
             <div class="col-md-8">
-                <h1 class="text-center">Search Movie</h1> <!--Bisa diubah-->
+                <h1 class="text-center">Search Movie</h1>
+                <!--Bisa diubah-->
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Aku Siapa?" id="search-input"> <!--Bisa diubah-->
+                    <input type="text" class="form-control" placeholder="Aku Siapa?" id="search-input">
+                    <!--Bisa diubah-->
                     <div class="input-group-append">
                         <button class="btn btn-dark" type="button" id="search-button">Button</button>
                     </div>
@@ -42,7 +44,8 @@
 
         <hr>
 
-        <div class="row" id="movie-list"> <!--Resiko diubah idnya hrs ubah juga di script.js baris 15-->
+        <div class="row" id="movie-list">
+            <!--Resiko diubah idnya hrs ubah juga di script.js baris 15-->
 
         </div>
 
@@ -53,4 +56,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
