@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="newStyle.css">
-    <title>Create Movie Page</title>
+    <title>Update Movie Page</title>
 </head>
 <body>
 <!-- <div class="dark"> -->
@@ -14,7 +14,7 @@
 <div class="container">
     <section class="py-5">
         <div class="box-movie">
-            <div class="product-name mb-2" style="color: #A71C1C; font-weight: bold; text-align:center; font-size: 28px;">Create Movie</div>
+            <div class="product-name mb-2" style="color: #A71C1C; font-weight: bold; text-align:center; font-size: 28px;">Update Movie</div>
             <div class="white-line mb-3"></div>
                 <div class="box-movie-info">
                     <div class="container">

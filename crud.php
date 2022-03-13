@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-    <title>movie-crud</title>
+    <title>CRUD Movie Page</title>
 </head>
 
 <body>
@@ -21,10 +21,10 @@
                 HealingTime
             </div>
             <ul>
-                <li class="movie"><a href="">Movie</a></li>
-                <li class="series"><a href="">Series</a></li>
-                <li class="cartoon"><a href="">Cartoon</a></li>
-                <li class="anime"><a href="">Anime</a></li>
+                <li class="movie"><a href="index.php">Search</a></li>
+                <li class="series"><a href="crud.php">CRUD</a></li>
+                <li class="cartoon"><a href=""></a></li>
+                <li class="anime"><a href=""></a></li>
             </ul>
             <div class="search"></div>
             <div class="notification"></div>
@@ -39,22 +39,30 @@
         <div class="read-movie"></div>
         <a class="text-crud" style="left: 1188px;top: 234px;" href="">Read Movie</a>
         <div class="update-movie"></div>
-        <a class="text-crud" style="left: 1188px;top: 309px;" href="">Update Movie</a>
+        <a class="text-crud" style="left: 1188px;top: 309px;" href="update.php">Update Movie</a>
         <div class="delete-movie"></div>
         <a class="text-crud" style="left: 1188px;top: 379px;" href="">Delete Movie</a>
         <div class="user-line" style="left: 1107px;top: 467px;"></div>
         <div class="box-news">
             <div class="text-news">Today's Booming Movie</div>
-            <div class="img-news"></div>
+            <div class="img-news"><img src="img/unsplash_wMkaMXTJjlQ.png" alt=""></div>
             <div class="text-news-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</div>
         </div>
-        <div class="box-next"></div>
+        <div class="box-next">
+            <div class="populer">Populer to Watch</div>
+            <div style="display: flex;">
+                <div class="btn-lg btn-danger mx-2"><img src="img/panah-kiri.svg" alt=""></div>
+                <div class="btn-lg btn-danger"><img src="img/panah-kanan.svg" alt=""></div>
+            </div>
+        </div>
         <div class="box-film gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
         </div>
     </div>
-    <div class="box-iklan">
-
-    </div>
+    <div class="box-iklan"><img src="img/unsplash_3pR7d-tIRx8.png" alt=""></div>
+        <div class="title-ads">New Upcoming</div>   
+            <div class="title-text">House of Hunt</div>
+                <div class="button-watch"></div>
+                <div class="watch-now">WATCH NOW</div>
     </div>
 </body>
 

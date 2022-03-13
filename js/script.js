@@ -49,7 +49,7 @@ function showmovie() {
         dataType: 'json',
         data: {
             'apikey': '7f31e438',
-            's': 'Harry Potter'
+            's' : 'Death Note',
         },
         success: function (result) {
             if (result.Response == "True") {
@@ -58,9 +58,9 @@ function showmovie() {
                 $.each(movies, function (i, data) {
                     $('.box-film.gx-4.gx-lg-5.row-cols-2.row-cols-md-3.row-cols-xl-4.justify-content-center').append(
                         '<div class="box-film-info">' +
-                        '<img src=' + data.Poster + ' class="film">' +
-                        '<div class="text-film">' + data.Title + '</div>' +
-                        '<div><img src="img/rate.svg" alt=""></div' +
+                            '<img src=' + data.Poster + ' class="film">' +
+                            '<div class="text-film">' + data.Title + '</div>' +
+                            '<div><img class="rating" src="img/rate.svg" alt=""></div' +
                         '</div>'
                         /*<div class="col-md-4">
                             <div class="card mb-3 text-center">
