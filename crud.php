@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="newStyle.css">
+    
     <title>movie-crud</title>
 </head>
 <body>
@@ -43,41 +44,16 @@
             <div class="text-news-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</div>
         </div>
         <div class="box-next"></div>
-        <div class="box-film gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
+            <div class="box-film gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
             </div>
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
-            </div>
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
-            </div>
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
-            </div>
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
-            </div>
-            <div class="box-film-info">
-                <div class="film"></div>
-                <div class="text-film">Now You See Me 2</div>
-                <img src="img/rate.svg" alt="">
-            </div>
-        </div>
         <div class="box-iklan">
 
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
